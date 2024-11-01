@@ -1,3 +1,6 @@
+import math
+
+
 salary = 5000  # Ежемесячная зарплата
 spend = 6000  # Траты за первый месяц
 months = 10  # Количество месяцев, которое планируется протянуть без долгов
@@ -10,6 +13,4 @@ for i in range(months):
         spend *= (1 + increase)
     money_capital += max(spend - salary, 0)
     
-money_capital = int(money_capital) + 1
-
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", money_capital)
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", math.ceil(money_capital))
