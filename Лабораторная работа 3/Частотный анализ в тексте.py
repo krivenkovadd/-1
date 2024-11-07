@@ -48,6 +48,7 @@ main_str = """
 Свои мне сказки говорил.
 """
 
+
 letter_count = count_letters(main_str)
 letter_frequency = calculate_frequency(letter_count)
 for letter, frequency in letter_frequency.items():
