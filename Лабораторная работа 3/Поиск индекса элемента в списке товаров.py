@@ -1,4 +1,3 @@
-
 def find_item_index(items, item):
     if item in items:
         return items.index(item)
