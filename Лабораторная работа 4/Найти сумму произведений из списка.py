@@ -1,4 +1,3 @@
-# TODO решите задачу
 import json
 def task() -> float:
     with open('input.json', 'r') as file:
