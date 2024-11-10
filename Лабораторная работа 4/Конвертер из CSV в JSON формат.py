@@ -22,4 +22,3 @@ if __name__ == '__main__':
     with open(OUTPUT_FILENAME) as output_f:
         for line in output_f:
             print(line, end="")
-
