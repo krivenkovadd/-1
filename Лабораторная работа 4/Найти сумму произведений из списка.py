@@ -12,5 +12,4 @@ def task() -> float:
 
     return round(total_sum, 3)
 
-
 print(task())
