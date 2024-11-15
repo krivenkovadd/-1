@@ -4,7 +4,6 @@ import json
 INPUT_FILENAME = "input.csv"
 OUTPUT_FILENAME = "output.json"
 
-
 def task() -> None:
     # Считываем содержимое CSV файла
     with open(INPUT_FILENAME, 'r') as input_file:
@@ -14,7 +13,6 @@ def task() -> None:
     # Сериализуем данные в JSON формат с отступами равными 4
     with open(OUTPUT_FILENAME, 'w') as output_file:
         json.dump(data, output_file, indent=4)
-
 
 if __name__ == '__main__':
     task()
